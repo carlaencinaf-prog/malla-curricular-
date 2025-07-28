@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malla Curricular - Pedagogía en Historia, Geografía y Cs. Sociales</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Malla Interactiva</h1>
+        <h2>Pedagogía en Historia, Geografía y Cs. Sociales</h2>
+        <p>Haz clic en un ramo para marcarlo como aprobado. Tu progreso se guardará automáticamente.</p>
+        <button id="reset-button">Reiniciar Progreso</button>
+    </header>
 
+    <main id="malla-container"></main>
+
+    <footer>
+        <p>Creado para seguimiento académico. ¡Haz clic en un ramo para comenzar!</p>
+    </footer>
+
+    <div id="mensaje-modal" class="modal-oculto">
+        <div class="modal-contenido">
+            <span class="cerrar-modal">&times;</span>
+            <h3 id="mensaje-titulo"></h3>
+            <p id="mensaje-texto"></p>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
